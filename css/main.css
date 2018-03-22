@@ -1,0 +1,32 @@
+/* Main Styles */
+
+input[type=text] {
+    width: 250px;
+    height: 30px;
+    background-color: #cccccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=text]:focus {
+    width: 275px;
+    height: 35px;
+    background-color: #b3b3b3;
+    transition: 1s;
+    outline: none;
+}
+
+.thumbnails {
+  margin: 30px 10px 0
+}
+.gallery {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lightbox {
+  max-width: 75%;
+}
