@@ -30,3 +30,9 @@ input[type=text]:focus {
 .lightbox {
   max-width: 75%;
 }
+
+.lightbox {
+  display: block;
+  margin-right: auto;
+  margin-left: 177px;
+}
