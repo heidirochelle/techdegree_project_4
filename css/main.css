@@ -40,3 +40,9 @@ input[type=text]:focus {
 li {
   list-style-type: none;
 }
+.lb-number {
+  display: none;
+}
+.lb-caption {
+  padding-top: 20px;
+}

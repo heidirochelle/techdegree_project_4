@@ -1,98 +1,100 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="js/lightbox2-master/dist/css/lightbox.min.css">
-<link rel="stylesheet" href="js/Filterizr-master/demo/index.css">
-<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
-</head>
-<body>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="js/lightbox2-master/dist/css/lightbox.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  </head>
+    <body>
 
-  <input id="search" name="search" placeholder="Search..." type="text" data-list=".list">
+      <input id="search" name="search" placeholder="Search..." type="text" data-list=".list">
 
-  <!-- Gallery -->
-  <div id='myUL' class='gallery list'>
-    <a href="photos/01.jpg" class="filtr-item" data-category="1" data-sort="hay bales" data-lightbox="roadtrip" data-title="
-Hay Bales -
-I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-      <img class=thumbnails src=photos/thumbnails/01.jpg>
-    </a>
-    <a href="photos/02.jpg" class="filtr-item" data-category="2" data-sort="lake" data-lightbox="roadtrip" data-title="
-Lake -
-The lake was so calm today. We had a great view of the snow on the mountains from here.">
-      <img class=thumbnails src=photos/thumbnails/02.jpg>
-    </a>
-    <a href="photos/03.jpg" class="filtr-item" data-category="3" data-sort="canyon" data-lightbox="roadtrip" data-title="
-Canyon -
-I hiked to the top of the mountain and got this picture of the canyon and trees below.">
-      <img class=thumbnails src=photos/thumbnails/03.jpg>
-    </a>
-    <a href="photos/04.jpg" class="filtr-item" data-category="4" data-sort="iceberg" data-lightbox="roadtrip" data-title="Iceberg -
-It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
-      <img class=thumbnails src=photos/thumbnails/04.jpg>
-    </a>
-    <a href="photos/05.jpg" class="filtr-item" data-category="5" data-sort="desert" data-lightbox="roadtrip" data-title="
-Desert -
-The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.
+      <!-- Gallery -->
+      <div id='myUL' class='gallery list'>
+        <a href="photos/01.jpg" class="filtr-item" data-category="1" data-sort="hay bales" data-lightbox="roadtrip" data-title="
+    Hay Bales -
+    I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+          <img class=thumbnails src=photos/thumbnails/01.jpg alt='photo of hay bales' >
+        </a>
+        <a href="photos/02.jpg" class="filtr-item" data-category="2" data-sort="lake" data-lightbox="roadtrip" data-title="
+    Lake -
+    The lake was so calm today. We had a great view of the snow on the mountains from here.">
+          <img class=thumbnails src=photos/thumbnails/02.jpg alt='photo of a lake'>
+        </a>
+        <a href="photos/03.jpg" class="filtr-item" data-category="3" data-sort="canyon" data-lightbox="roadtrip" data-title="
+    Canyon -
+    I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+          <img class=thumbnails src=photos/thumbnails/03.jpg alt='photo of a canyon'>
+        </a>
+        <a href="photos/04.jpg" class="filtr-item" data-category="4" data-sort="iceberg" data-lightbox="roadtrip" data-title="Iceberg -
+    It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+          <img class=thumbnails src=photos/thumbnails/04.jpg alt='photo of an iceberg'>
+        </a>
+        <a href="photos/05.jpg" class="filtr-item" data-category="5" data-sort="desert" data-lightbox="roadtrip" data-title="
+    Desert -
+    The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.
 
-">
-      <img class=thumbnails src=photos/thumbnails/05.jpg>
-    </a>
-    <a href="photos/06.jpg" class="filtr-item" data-category="6" data-sort="fall" data-lightbox="roadtrip" data-title="Fall -
-Fall is coming, I love when the leaves on the trees start to change color.
+    ">
+          <img class=thumbnails src=photos/thumbnails/05.jpg alt='photo of desert'>
+        </a>
+        <a href="photos/06.jpg" class="filtr-item" data-category="6" data-sort="fall" data-lightbox="roadtrip" data-title="Fall -
+    Fall is coming, I love when the leaves on the trees start to change color.
 
-">
-      <img class=thumbnails src=photos/thumbnails/06.jpg>
-    </a>
-    <a href="photos/07.jpg" class="filtr-item" data-category="7" data-sort="plantation" data-lightbox="roadtrip" data-title="
-Plantation -
-I drove past this plantation yesterday, everything is so green!
+    ">
+          <img class=thumbnails src=photos/thumbnails/06.jpg alt='photo of fall'>
+        </a>
+        <a href="photos/07.jpg" class="filtr-item" data-category="7" data-sort="plantation" data-lightbox="roadtrip" data-title="
+    Plantation -
+    I drove past this plantation yesterday, everything is so green!
 
-">
-      <img class=thumbnails src=photos/thumbnails/07.jpg>
-    </a>
-    ><a href="photos/08.jpg" class="filtr-item" data-category="8" data-sort="dunes" data-lightbox="roadtrip" data-title="
-Dunes -
-My summer vacation to the Oregon Coast. I love the sandy dunes!
+    ">
+          <img class=thumbnails src=photos/thumbnails/07.jpg alt='photo of a plantation'>
+        </a>
+        ><a href="photos/08.jpg" class="filtr-item" data-category="8" data-sort="dunes" data-lightbox="roadtrip" data-title="
+    Dunes -
+    My summer vacation to the Oregon Coast. I love the sandy dunes!
 
-">
-      <img class=thumbnails src=photos/thumbnails/08.jpg>
-    </a>
-    <a href="photos/09.jpg" class="filtr-item" data-category="9" data-sort="countryside lane" data-lightbox="roadtrip" data-title="Countryside Lane -
-We enjoyed a quiet stroll down this countryside lane.">
-      <img class=thumbnails src=photos/thumbnails/09.jpg>
-    </a>
-    <a href="photos/10.jpg" class="filtr-item" data-category="10" data-sort="sunset" data-lightbox="roadtrip" data-title="
-Sunset -
-Sunset at the coast! The sky turned a lovely shade of orange.
+    ">
+          <img class=thumbnails src=photos/thumbnails/08.jpg alt='photo of sand dunes'>
+        </a>
+        <a href="photos/09.jpg" class="filtr-item" data-category="9" data-sort="countryside lane" data-lightbox="roadtrip" data-title="Countryside Lane -
+    We enjoyed a quiet stroll down this countryside lane.">
+          <img class=thumbnails src=photos/thumbnails/09.jpg alt='photo of a countryside lane'>
+        </a>
+        <a href="photos/10.jpg" class="filtr-item" data-category="10" data-sort="sunset" data-lightbox="roadtrip" data-title="
+    Sunset -
+    Sunset at the coast! The sky turned a lovely shade of orange.
 
-">
-      <img class=thumbnails src=photos/thumbnails/10.jpg>
-    </a>
-    <a href="photos/11.jpg" class="filtr-item" data-category="11" data-sort="cave" data-lightbox="roadtrip" data-title="Cave -
-I did a tour of a cave today and the view of the landscape below was breathtaking.
+    ">
+          <img class=thumbnails src=photos/thumbnails/10.jpg alt='photo of a sunset'>
+        </a>
+        <a href="photos/11.jpg" class="filtr-item" data-category="11" data-sort="cave" data-lightbox="roadtrip" data-title="Cave -
+    I did a tour of a cave today and the view of the landscape below was breathtaking.
 
-">
-      <img class=thumbnails src=photos/thumbnails/11.jpg>
-    </a>
-    <a href="photos/12.jpg" data-lightbox="roadtrip" data-title="Bluebells -
-I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
-<img class=thumbnails src=photos/thumbnails/12.jpg></a>
-  </div>
+    ">
+          <img class=thumbnails src=photos/thumbnails/11.jpg alt='photo of a cave'>
+        </a>
+        <a href="photos/12.jpg" data-lightbox="roadtrip" data-title="Bluebells -
+    I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+    <img class=thumbnails src=photos/thumbnails/12.jpg alt='photo of bluebells'></a>
+      </div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/lightbox2-master/dist/js/lightbox.min.js"></script>
-  <script type="text/javascript" src="js/HideSeek-master/jquery.hideseek.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <script>
-    lightbox.option({
-      'maxWidth': 900,
-      'maxHeight': 900,
-      'wrapAround': true,
-      'alwaysShowNavOnTouchDevices': true,
-      'albumLabel': none
-    });
-</script>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/lightbox2-master/dist/js/lightbox.min.js"></script>
+      <script type="text/javascript" src="js/HideSeek-master/jquery.hideseek.min.js"></script>
+      <script src="js/scripts.js"></script>
+      <script>
+        lightbox.option({
+          'maxWidth': 900,
+          'maxHeight': 900,
+          'wrapAround': true,
+          'alwaysShowNavOnTouchDevices': true,
+          'albumLabel': none
+        });
+    </script>
 
-</body>
-</html>
+    </body>
+  </html>
