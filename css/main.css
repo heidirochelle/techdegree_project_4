@@ -37,3 +37,7 @@ li {
 .lb-data .lb-details .lb-caption {
   font-weight: bold;
   font-size: 18px;
+}
+.myUl {
+  text-align: center;
+}
