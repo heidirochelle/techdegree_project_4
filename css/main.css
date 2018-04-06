@@ -27,22 +27,13 @@ input[type=text]:focus {
   margin-right: auto;
 }
 
-.lightbox {
-  max-width: 75%;
-}
-
-.lightbox {
-  display: block;
-  margin-right: auto;
-  margin-left: 177px;
-}
-
 li {
   list-style-type: none;
 }
-.lb-number {
-  display: none;
+.lb-details {
+  padding-top: 10px;
+
 }
-.lb-caption {
-  padding-top: 20px;
-}
+.lb-data .lb-details .lb-caption {
+  font-weight: bold;
+  font-size: 18px;
